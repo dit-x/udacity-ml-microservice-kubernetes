@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=iffexibility/udacity_ml .
+docker build --tag=iffexibility/udacity_ml2 .
 
 # Step 2: 
 # List docker images
