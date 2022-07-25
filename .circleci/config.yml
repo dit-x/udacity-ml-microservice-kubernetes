@@ -16,7 +16,7 @@ jobs:
       - restore_cache:
           name: Download and cache dependencies
           keys:
-            - v1-dependencies-{{ checksum "/requirements.txt" }}
+            - v1-dependencies-{{ checksum "requirements.txt" }}
             - v1-dependencies-
       - run:
           name: install libraries
